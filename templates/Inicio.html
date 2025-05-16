@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!--LINKS A LOS CSS Y A PAGINAS CON FUENTE DE TEXTO-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="../static/css/style.css">
+    <link rel="stylesheet" href="../static/css/comunidad.css">
+    <link rel="stylesheet" href="../static/css/noticias.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <meta charset="UTF-8">
+    <link rel="icon" type="image/png" href="../static/images/logo.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ciudad Urbana</title>
+</head>
+
+<body>
+
+    <div class="header">
+        <!-- boton suscribirse -->
+        <div class="div-suscribirse">
+            <button href="#" data-target="slide-out" class="sidenav-trigger show-on-large boton-suscribete">SUSCRIBETE</button>
+        </div>
+
+        <!-- logo inicio -->
+        <div class="div-logo">
+            <a href="Inicio.html">
+                <img class="logo" src="../static/images/logo2.PNG" alt="Inicio">
+            </a>
+        </div>
+
+        <!--botonflotante -->
+        <div class="div-redes"> 
+            <div class="fixed-action-btn boton-redes" id="btn-float">
+                <a class="btn-floating btn-large btn-flat">
+                    <i class="fa-solid fa-comments"></i>
+                </a>
+                <ul>
+                    <li><a href="https://www.facebook.com/people/Ciudad-Urbana/100081934966603/?ti=as" class="btn-floating btn-flat"><i class="fab fa-facebook fa-2x"></i></a></li>
+                    <li><a href="https://x.com/ciudadurbana_ok" class="btn-floating btn-flat"><i class="fab fa-x-twitter fa-2x"></i></a></li>
+                    <li><a href="https://www.twitch.tv/ciudadurbana" class="btn-floating btn-flat"><i class="fab fa-twitch fa-2x"></i></a></li>
+                    <li><a href="https://www.instagram.com/ciudadurbana96.1/" class="btn-floating btn-flat"><i class="fab fa-instagram fa-2x"></i></a></li>
+                    <li><a href="https://www.youtube.com/@ciudadurbana96.1" class="btn-floating btn-flat"><i class="fab fa-youtube fa-2x"></i></a></li>
+                    <li><a href="https://api.whatsapp.com/send/?phone=542216438319&text&type=phone_number&app_absent=0" class="btn-floating btn-flat"><i class="fab fa-whatsapp fa-2x"></i></a></li>
+                </ul>
+            </div>
+        </div>
+        
+    </div>
+
+    <!--Barra de navegacion-->
+    <div class="navbar">
+        <nav class="navbar-custom">
+            <div class="nav-wrapper">
+                <div class="nav valign-wrapper">
+                    <!-- icon mobile-->
+                    <a href="#" data-target="mobile-navbar" class="sidenav-trigger">
+                        <i class="material-icons center">menu</i>
+                    </a>
+
+                    <button href="#" data-target="slide-out" class="sidenav-trigger show-on-large right boton-suscribete" id="nav-btn">SUSCRIBETE</button>
+
+                    <ul id="navbar-items" class="hide-on-med-and-down center-navbar">
+                        <li><a class="button button--glass" href="newsletter.html">NEWSLETTER</a></li>
+                        <li ><a class="button button--glass" href="Beneficios_home.html">BENEFICIOS</a></li>
+                        <li><a class="button button--glass" href="nosotros.html">NOSOTROS</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+    <!-- menu mobile-->
+    <ul id="mobile-navbar" class="sidenav">
+        <li><a href="newsletter.html">Newsletter</a></li>
+        <li><a href="Beneficios_home.html">Beneficios</a></li>
+        <li><a href="nosotros.html">Nosotros</a></li>
+        <li><a href="comunidad.html" class="background-white btn">Únete</a></li>
+    </ul>
+
+    <br>
+    <!-- Transmision -->
+    <div class="container">
+        <div class="center transmision-container">
+            <iframe src="https://solumedia.com/video/ciudadurbana/index.html" title="Radio en vivo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+    </div>
+    
+
+    <!--progamacion de la radio-->
+    <div class="div-title container center">
+        <h1 class="title">PROGRAMACIÓN</h1>
+    </div>
+
+    <div class="container div-color divider"></div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col s6 m4 l3">
+                <a href="https://www.youtube.com/@ciudadurbanafm96.16/featured">
+                    <img id="foto1" class="fade-transition responsive-img" src="../static/images/gqnlogo.png" alt="">
+                </a>
+            </div>
+            <div class="col s6 m4 l3">
+                <a href="https://www.youtube.com/@ciudadurbanafm96.16/featured">
+                    <img id="foto2" class="fade-transition responsive-img" src="../static/images/hermosalogo.png" alt="">
+                </a>
+            </div>
+            <div class="col s6 m4 l3">
+                <a href="https://www.youtube.com/playlist?list=PLPujlNHhlLoZ8zhYzpSqOECMi1O06dhV0">
+                    <img id="foto3" class="fade-transition responsive-img" src="../static/images/vayan.jpg" alt="">
+                </a>
+            </div>
+            <div class="col s6 m4 l3">
+                <a href="https://www.youtube.com/playlist?list=PLPujlNHhlLoZ8zhYzpSqOECMi1O06dhV0">
+                    <img id="foto8" class="fade-transition responsive-img" src="../static/images/berissologo.PNG" alt="">
+                </a>
+            </div>
+            <div class="col s6 m4 l3">
+                <a href="https://www.youtube.com/playlist?list=PLPujlNHhlLoYldCViCqBHOAliFlWN8U6Z">
+                    <img id="foto4" class="fade-transition responsive-img" src="../static/images/fuegologo.png" alt="">
+                </a>
+            </div>
+            <div class="col s6 m4 l3">
+                <a href="https://www.youtube.com/@ciudadurbanafm96.16/featured">
+                    <img id="foto5" class="fade-transition responsive-img" src="../static/images/tallando.jpg" alt="">
+                </a>
+            </div>
+            <div class="col s6 m4 l3">
+                <a href="https://www.youtube.com/@ciudadurbanafm96.16/featured">
+                    <img id="foto6" class="fade-transition responsive-img" src="../static/images/casilogo.png" alt="">
+                </a>
+            </div>
+            <div class="col s6 m4 l3">
+                <a href="GQN.html">
+                    <img id="foto7" class="fade-transition responsive-img" src="../static/images/amigosalairelogo.jpg" alt="">
+                </a>
+            </div>
+        </div>
+    </div>
+    <!--noticias-->
+    <div class="container center">
+        <h1 class="title-header">NOTICIAS</h1>
+    </div>
+    <div class="container div-color divider"></div>
+
+
+    <div class="container" style="margin-top: 3%;">
+          <div class="row">
+              <div class="col s12">
+                  <div class="noticia noticia-destacada">
+                      <img class="imagen-noticia" src="https://media.ambito.com/p/3c115ede103c593b2f834a3e4f1f17ba/adjuntos/239/imagenes/042/287/0042287998/dolar-mercados-vivo.jpg">
+                      <div class="contenido">
+                          <div class="medio">
+                              Ciudad Urbana
+                          </div>
+                          <div class="titulo">
+                              Dólar entre bandas, día 2: el tipo de cambio busca equilibrio, se comprime la brecha y asoma el "carry trade"
+                          </div>
+                          <div class="hora">hace 1 hora</div>
+                      </div>
+                  </div>
+                  <div class="divider" style="height: 2px;"></div>
+              </div>
+          </div>
+      
+          <div class="row">
+              <div class="col s12 m9">
+                  <div class="noticia">
+                      <img class="imagen-noticia" src="https://www.infobae.com/resizer/v2/GCKB5EYUJBG7NKS3CW7Z5V6KOU.JPG?auth=de3fba82716dc66f8a14f2d2173cd7951b9383e46f6d2203cb6b987765e95e84&smart=true&width=992&height=661&quality=85">
+                      <div class="contenido">
+                          <div class="medio">
+                              Ciudad Urbana 
+                          </div>
+                          <div class="titulo">
+                              El presidente anunció nuevas medidas económicas para enfrentar la inflación
+                          </div>
+                          <div class="hora">hace 5 horas</div>
+                      </div>
+                  </div>
+  
+                  <div class="noticia">
+                      <img class="imagen-noticia" src="https://images.pagina12.com.ar/styles/focal_3_2_700x467/public/2025-04/929315-24-20opi-afp.jpg?h=743579b7&itok=H07_RFPE">
+                      <div class="contenido">
+                          <div class="medio">
+                              Ciudad Urbana
+                          </div>
+                          <div class="titulo">
+                              Ecuador: milagro estadístico | Opinión
+                          </div>
+                          <div class="hora">hace 3 horas</div>
+                      </div>
+                  </div>
+      
+                  <div class="noticia">
+                      <img class="imagen-noticia" src="https://www.infobae.com/resizer/v2/P6GDZRQWNJBEFC355AN3Q4YASA.jpg?auth=f893aef252961a3c6c27ce9c932d411604a55d7d174c5687a0c58aaef4ad615d&smart=true&width=992&height=558&quality=85">
+                      <div class="contenido ">
+                          <div class="medio">
+                              Ciudad Urbana
+                          </div>
+                          <div class="titulo">
+                              El Gobierno recibió hoy USD 12.000 millones del FMI y las reservas del Banco Central cerraron en USD 36.799 millones
+                          </div>
+                          <div class="hora">hace 5 horas</div>
+                      </div>
+                  </div>
+              </div>
+      
+              <div class="col m3 publicidad hide-on-small-only">
+                  <div class="seccion-card visible">
+                      <div class="card">
+                          <div class="card-image">
+                              <img src="../static/images/publicidad/mg-hogar.png">
+                          </div>
+                      </div>
+          
+                      <div class="card">
+                          <div class="card-image">
+                              <img src="../static/images/publicidad/coopertei.png">
+                          </div>
+                      </div>
+      
+                      <div class="card">
+                          <div class="card-image">
+                              <img src="../static/images/publicidad/tisico-s.a.png">
+                          </div>
+                      </div>
+                  </div>
+  
+                  <div class="seccion-card oculto">
+                      <div class="card">
+                          <div class="card-image">
+                              <img src="../static/images/publicidad/plp.png">
+                          </div>
+                      </div>
+          
+                      <div class="card">
+                          <div class="card-image">
+                              <img src="../static/images/publicidad/muni.-berisso.png">
+                          </div>
+                      </div>
+      
+                      <div class="card">
+                          <div class="card-image">
+                              <img src="../static/images/publicidad/hermida.png">
+                          </div>
+                      </div>
+                  </div>
+  
+                  <div class="seccion-card oculto">
+                      <div class="card">
+                          <div class="card-image">
+                              <img src="../static/images/publicidad/muni.-ensenada.png">
+                          </div>
+                      </div>
+          
+                      <div class="card">
+                          <div class="card-image">
+                              <img src="../static/images/publicidad/rapicuotas.png">
+                          </div>
+                      </div>
+      
+                      <div class="card">
+                          <div class="card-image">
+                              <img src="../static/images/publicidad/el-galpon.png">
+                          </div>
+                      </div>
+                  </div>
+  
+                  <div class="seccion-card oculto">
+                      <div class="card">
+                          <div class="card-image">
+                              <img src="../static/images/publicidad/hohaldre.png">
+                          </div>
+                      </div>
+          
+                      <div class="card">
+                          <div class="card-image">
+                              <img src="../static/images/publicidad/inversa.png">
+                          </div>
+                      </div>
+      
+                      <div class="card">
+                          <div class="card-image">
+                              <img src="../static/images/publicidad/fiesta-retro.png">
+                          </div>
+                      </div>
+                  </div>
+  
+                  <div class="seccion-card oculto">
+                      <div class="card">
+                          <div class="card-image">
+                              <img src="../static/images/publicidad/cimop.png">
+                          </div>
+                      </div>
+          
+                      <div class="card">
+                          <div class="card-image">
+                              <img src="../static/images/publicidad/discoverled.png">
+                          </div>
+                      </div>
+      
+                      <div class="card">
+                          <div class="card-image">
+                              <img src="../static/images/publicidad/muni.-berisso.png">
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  
+    <div class=" container">
+        <div class="div-publi center">
+            <video class="publi center-align" autoplay="" loop="" muted="" src="https://ciudadurbana.com/wp-content/uploads/2024/06/pantalla-ciudad-online-video-cutter.com_.mp4"></video>
+        </div>
+    </div>
+    <a class="waves-effect waves-light btn modal-trigger boton-suscribete" href="#modal-comunidad">SUSCRIBETE</a>
+
+    <!-- Modal Structure -->
+<div id="modal-comunidad" class="modal">
+  <div class="modal-content">
+    <h4>Comunidad</h4>
+    <form class="form-login">
+      <label for="nombre" class="login__label">Nombre</label>
+      <input id="nombre" class="login__input" type="text" />
+
+      <label for="apellido" class="login__label">Apellido</label>
+      <input id="apellido" class="login__input" type="text" />
+
+      <label for="direccion" class="login__label">Dirección</label>
+      <input id="direccion" class="login__input" type="text" />
+
+      <label for="whatsapp" class="login__label">Whatsapp</label>
+      <input id="whatsapp" class="login__input" type="text" />
+
+      <label for="email" class="login__label">Email</label>
+      <input id="email" class="login__input" type="email" />
+
+      <h5>¿Cuánto vas a donar?</h5>
+      <p><label><input name="donacion" type="radio" class="with-gap" /><span>$500</span></label></p>
+      <p><label><input name="donacion" type="radio" class="with-gap" /><span>$1000</span></label></p>
+      <p><label><input name="donacion" type="radio" class="with-gap" /><span>$2000</span></label></p>
+      <p><label><input name="donacion" type="radio" class="with-gap" /><span>$3000</span></label></p>
+
+      <label for="mensaje">Mensaje para nuestra comunidad</label>
+      <input id="mensaje" class="login__input" type="text" />
+
+      <p><label><input type="checkbox" class="filled-in" /><span>He leído y acepto la política de privacidad</span></label></p>
+
+      <button type="submit" class="btn" disabled>INGRESAR</button>
+    </form>
+  </div>
+</div>
+
+         <!--comunidad-->
+        <ul id="slide-out" class="sidenav">
+            <div class="login-container">
+                <form action="" class="form-login">
+
+                    <input id="login-input-user" class="login__input" type="text" />
+                    <label for="login-input-user" class="login__label">Nombre</label>
+                    
+                    <input id="login-input-user" class="login__input" type="text" />
+                    <label for="login-input-user" class="login__label">Apellido</label>
+                    
+                    <input id="login-input-user" class="login__input" type="text" />
+                    <label for="login-input-user" class="login__label">Dirección</label>
+                    
+                    <input id="login-input-user" class="login__input" type="text" />
+                    <label for="login-input-user" class="login__label">whatsapp</label>
+
+                    <input id="login-input-password" class="login__input" type="password" />
+                    <label for="login-input-password" class="login__label">Email</label>
+                    
+            
+                    <h4>¿Cuánto vas a donar?</h4>
+            
+                    <p>
+                        <label>
+                          <input class="with-gap custom-radio" name="group1" type="radio"  />
+                          <span>$500</span>
+                        </label>
+                    </p>
+            
+                    <p>
+                        <label>
+                          <input class="with-gap custom-radio" name="group1" type="radio"  />
+                          <span>$1000</span>
+                        </label>
+                    </p>
+            
+                    <p>
+                        <label>
+                          <input class="with-gap custom-radio" name="group1" type="radio"  />
+                          <span>$2000</span>
+                        </label>
+                    </p>
+            
+                    <p>
+                        <label>
+                          <input class="with-gap custom-radio" name="group1" type="radio"  />
+                          <span>$3000</span>
+                        </label>
+                    </p>
+            
+                    <h5>Mensaje pa nuestra comunidad</h5>
+                    <input id="sa" class="login__input" type="text" />
+            
+                    <p class="checked">
+                        <label>
+                            <input type="checkbox" class="filled-in" />
+                            <span>He leído y acepto la política de privacidad</span>
+                        </label>
+                    </p>
+            
+                    <button class="login__submit" disabled>INGRESAR</button>
+                </form>
+            </div>
+        </ul>
+        
+     
+     
+
+<footer class="page-footer pie">
+        <div class="container">
+            <div class="row">
+                <div class="col l4 s12">
+                    <div style="display: flex; align-items: center;">
+                        <div style="flex: 1; text-align: right;">
+                            <img src="../static/images/logo2.PNG" style="max-height: 80px; margin-top: 8%">
+                        </div>
+                        <div style="flex: 1; padding-left: 10px;">
+                            <div>
+                                
+                                <p style="font-weight: 600;">Radio 96.1</p>
+                                <p>Ciudad Urbana</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col l4 s12 center">
+                    <h6 class="white-text">Políticas y Avisos</h6>
+                    <ul class="politicas-footer">
+                        <li><a href="#" class="c-grey">Aviso Legal</a></li>
+                        <li><a href="Politicas-de-privacidad.html" class="c-grey">Política de Privacidad</a></li>
+                        <li><a href="#" class="c-grey">Política de Cookies</a></li>
+                    </ul>
+                </div>
+                <!--Links a sus redes sociales-->
+                <div class="col l4 s12 center">
+                    <h6 class="white-text">Redes Sociales</h6>
+                    <div class="container icons">
+                        <ul class="icons-redes">
+                            <li><a href="https://www.facebook.com/people/Ciudad-Urbana/100081934966603/?ti=as" target="_blank" class="c-grey"><i class="fab fa-facebook fa-2x"></i></a></li>
+                      <li><a href="https://x.com/ciudadurbana_ok" target="_blank" class="c-grey"><i class="fab fa-x-twitter fa-2x"></i></a></li>
+                      <li><a href="https://www.twitch.tv/ciudadurbana" target="_blank" class="c-grey"><i class="fab fa-twitch fa-2x"></i></a></li>
+                      <li><a href="https://www.instagram.com/ciudadurbana96.1/" target="_blank" class="c-grey"><i class="fab fa-instagram fa-2x"></i></a></li>
+                      <li><a href="https://www.youtube.com/@ciudadurbana96.1" target="_blank" class="c-grey"><i class="fab fa-youtube fa-2x"></i></a></li>
+                      <li><a href="https://api.whatsapp.com/send/?phone=542216438319&text&type=phone_number&app_absent=0" target="_blank" class="c-grey"><i class="fab fa-whatsapp fa-2x"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <div class="container center">
+                © 2025 Ciudad Urbana - Todos los derechos reservados
+            </div>
+        </div>
+    </footer>
+
+    <script src="../static/js/Imagenes.js"></script>
+    <script src="../static/js/publicidad.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js" type="text/javascript"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="../static/js/main.js"></script>
+<script>
+
+document.addEventListener('DOMContentLoaded', function () {
+      const elems = document.querySelectorAll('.fixed-action-btn');
+      M.FloatingActionButton.init(elems, {
+        direction: 'down',
+        hoverEnabled: false // Cambia a true si quieres que funcione con hover
+      });
+    });
+
+</script>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    var elems = document.querySelectorAll('.sidenav');
+    var instances = M.Sidenav.init(elems);
+  });
+
+</script>
+
+<script> document.addEventListener('DOMContentLoaded', function() {
+    var elems = document.querySelectorAll('.fixed-action-btn');
+    var instances = M.FloatingActionButton.init(elems, {
+      direction: 'left',
+      hoverEnabled: false
+    });
+  });
+        
+</script>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    var elems = document.querySelectorAll('.modal');
+    var instances = M.Modal.init(elems);
+  });
+</script>
+
+</body>
+</html>
